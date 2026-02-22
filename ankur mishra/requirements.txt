@@ -1,0 +1,53 @@
+# CheckNow Medical Laboratory - System Requirements
+
+## Server Requirements
+- PHP 7.4 or higher
+- MySQL 5.7 or higher  
+- Apache Web Server 2.4+
+- Web Browser (Chrome 70+, Firefox 65+, Safari 12+, Edge 79+)
+
+## PHP Extensions Required
+- mysqli (for database connectivity)
+- session (for user sessions)
+- hash (for password hashing)
+- json (for data processing)
+
+## External CDN Dependencies (Auto-loaded)
+- Font Awesome 5.15.3 (Icons)
+- Swiper.js 11 (Image sliders)
+
+## External APIs
+- Web3Forms API (Contact form submissions)
+  - Access Key: 3d64d019-1d9a-494d-9335-04c2d0707d9b
+
+## Recommended Development Environment
+- XAMPP 8.0+ (includes PHP, MySQL, Apache)
+- phpMyAdmin (Database management)
+- Visual Studio Code or similar IDE
+
+## Browser Compatibility
+- Google Chrome 70+
+- Mozilla Firefox 65+
+- Safari 12+
+- Microsoft Edge 79+
+- Mobile browsers (iOS Safari, Chrome Mobile)
+
+## Database Requirements
+- MySQL Database: hello_db
+- Tables: new_db, appointments, contact_messages, test_results
+- Storage: Minimum 50MB for database
+- Disk Space: 500MB for project files and images
+
+## Network Requirements
+- Internet connection (for CDN resources and external APIs)
+- Local network access for development
+
+## Security Requirements
+- HTTPS recommended for production
+- SSL certificate for secure data transmission
+- Regular security updates for PHP and MySQL
+
+## Performance Recommendations
+- Minimum 2GB RAM
+- PHP memory_limit: 128M or higher
+- MySQL max_connections: 100 or higher

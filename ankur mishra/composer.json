@@ -1,0 +1,42 @@
+{
+    "name": "checknow/medical-laboratory",
+    "description": "PHP-based medical laboratory website for blood test bookings and patient management",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sachin",
+            "role": "Developer"
+        },
+        {
+            "name": "Amit", 
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=8.2.0",
+        "ext-mysqli": "*",
+        "ext-session": "*",
+        "ext-hash": "*",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "CheckNow\\": "src/"
+        }
+    },
+    "scripts": {
+        "start": "php -S localhost:8000",
+        "setup": "@php setup_database.php",
+        "test": "phpunit"
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "sort-packages": true
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}

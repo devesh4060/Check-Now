@@ -1,0 +1,50 @@
+{
+  "name": "checknow-medical-laboratory",
+  "version": "1.0.0",
+  "description": "PHP-based medical laboratory website for blood test bookings and patient management",
+  "main": "index.php",
+  "scripts": {
+    "start": "php -S localhost:8000",
+    "setup": "setup.bat",
+    "install": "install_dependencies.bat",
+    "dev": "php -S localhost:3000",
+    "build": "echo 'No build process required for PHP project'",
+    "test": "echo 'No tests specified'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "local"
+  },
+  "keywords": [
+    "php",
+    "medical",
+    "laboratory",
+    "blood-test",
+    "healthcare",
+    "mysql",
+    "apache"
+  ],
+  "authors": [
+    "Sachin",
+    "Amit"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "php": ">=8.2.0",
+    "mysql": ">=8.0.0",
+    "apache": ">=2.4.0"
+  },
+  "devDependencies": {},
+  "engines": {
+    "php": ">=8.2.0"
+  },
+  "os": [
+    "win32",
+    "darwin",
+    "linux"
+  ],
+  "cpu": [
+    "x64",
+    "ia32"
+  ]
+}
