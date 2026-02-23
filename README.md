@@ -271,7 +271,7 @@ For technical support or questions:
 ## 👥 Credits
 
 **Developed by**: Aukur  Mishra 
-**Year**: 2024  
+**Year**: 2026 
 **Institution**: College Project
 
 ## 📄 License
