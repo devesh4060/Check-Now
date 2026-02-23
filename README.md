@@ -270,7 +270,7 @@ For technical support or questions:
 
 ## 👥 Credits
 
-**Developed by**: Sachin   
+**Developed by**: Aukur  Mishra 
 **Year**: 2024  
 **Institution**: College Project
 
